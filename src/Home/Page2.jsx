@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-indent */
 import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
@@ -27,6 +28,7 @@ export default function Page2() {
         <QueueAnim className="home-case" type="bottom" key="home-case" ease="easeOutQuart" leaveReverse>
           <h2 key="h2">精品案例扫一扫</h2>
           <i key="i" className="line" />
+          <h3 key="h3">游戏正在开发中，敬请期待</h3>
           <QueueAnim
             key="content"
             component={Row}

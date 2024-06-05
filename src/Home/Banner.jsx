@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import QueueAnim from 'rc-queue-anim';
-import { Button } from 'antd';
 import BannerImage from './BannerImage';
 
 class Banner extends React.PureComponent {
@@ -18,19 +17,9 @@ class Banner extends React.PureComponent {
         <div className="home-layout">
           <QueueAnim className={`${className}-content-wrapper`} delay={300} ease="easeOutQuart">
             <h1 key="h2">
-              极简制作，一键呈现
+              用心做游戏, 为玩家创造快乐
             </h1>
-            <p key="p">为您提供专业的云上建站服务，满足不同行业的个性化需求</p>
-            <span key="button">
-              <Button
-                type="primary"
-                onClick={() => {
-                window.location.href = '/activity/home';
-              }}
-              >
-                开始使用
-              </Button>
-            </span>
+            <p key="p">我们是一群真正的 Gamer, 致力打造独创精品手游</p>
           </QueueAnim>
           <div className={`${className}-image-wrapper`}>
             <BannerImage />

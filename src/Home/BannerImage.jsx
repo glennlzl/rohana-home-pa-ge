@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-indent */
 import React from 'react';
 import TweenOne from 'rc-tween-one';
 import SvgDrawPlugin from 'rc-tween-one/lib/plugin/SvgDrawPlugin';

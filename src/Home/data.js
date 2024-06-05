@@ -2,38 +2,23 @@ import React from 'react';
 
 export const page1 = [
   {
-    title: '轻松建站',
-    content: '支持可视化编辑、自由拖拽排版、实时预览、在线访问加速等功能',
+    title: '资深团队',
+    content: '公司主创均毕业于世界前50的顶尖学府，拥有丰富的互联网从业经验',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/MmROsqZndrFBrIspzLlL.png',
   },
   {
-    title: '数据分析',
-    content: '网站内设有数据监测埋点，助你时刻掌握站点效果，鉴别有效渠道',
+    title: '公司愿景',
+    content: '我们致力于打造独创精品手游，为玩家创造快乐',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/ONvKhpRAmkCfdEhkUZkJ.png',
   },
   {
-    title: '企业协同',
-    content: '企业版支持以团队管理的方式，多人协作完成营销站点，共享资源',
+    title: '企业文化',
+    content: '我们是一群真正的 Gamer，热爱游戏，热爱生活',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/oxmXLgGjCeXfYPcVSbKg.png',
   },
 ];
 
 export const page2 = [
-  {
-    title: '端午节',
-    url: 'https://render.alipay.com/p/f/fd-jauizbz9/index.html',
-    image: 'https://gw.alipayobjects.com/zos/rmsportal/VMhxnfHxvCgksDCnbfQX.jpg',
-  },
-  {
-    title: '余额宝4周年',
-    url: 'https://render.alipay.com/p/f/fd-jauj8apg/index.html',
-    image: 'https://gw.alipayobjects.com/zos/rmsportal/kJCZlvEAvTnyLVqzrhzH.jpg',
-  },
-  {
-    title: '支付宝付款',
-    url: 'http://www.anijue.com/p/q/j5rxse2a/pages/home/index.html',
-    image: 'https://gw.alipayobjects.com/zos/rmsportal/yKHLCeGLgdFoxFXhzFtu.jpg',
-  },
 ];
 
 export const page3 = [
@@ -243,9 +228,9 @@ export const page4 = [
 ];
 
 export const footer = [
-  { text: '解决方案', src: '#' },
-  { text: '使用帮助', src: '#' },
-  { text: '模板开发文档', src: '#' },
-  { text: '模板开发工具', src: '#' },
-  { text: '联系我们', src: 'mailto:zhao.wuz@antfin.com' },
+  { text: '公司介绍', src: '#' },
+  { text: '企业招聘', src: '#' },
+  { text: '企业文化', src: '#' },
+  { text: '游戏案例', src: '#' },
+  { text: '联系我们', src: 'glennli616@gmail.com' },
 ];
